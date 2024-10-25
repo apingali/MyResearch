@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "MyResearch"
+  site-url: "https://apingali.github.io/MyResearch"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/apingali/MyResearch"
