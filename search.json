@@ -1,0 +1,172 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MyResearch",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "MyResearch"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "MyResearch",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall MyResearch in Development mode\n# make sure MyResearch package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to MyResearch\n$ nbdev_prepare",
+    "crumbs": [
+      "MyResearch"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "MyResearch",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/apingali/MyResearch.git\nor from conda\n$ conda install -c apingali MyResearch\nor from pypi\n$ pip install MyResearch\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "MyResearch"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "MyResearch",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "MyResearch"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "An exploration of compact, efficient language models\n\n\n\nSmall Language Models (SLMs) are compact neural networks designed for natural language processing tasks that prioritize efficiency and practicality over raw performance. Unlike their larger counterparts (such as GPT-4 or Claude), SLMs are:\n\nTypically under 10 billion parameters\nCapable of running on consumer hardware\nOften optimized for specific use cases\nMore interpretable and controllable\nEasier to fine-tune and modify\n\n\n\n\nSmall language models are becoming increasingly important for several reasons:\n\nResource Efficiency: They require less computational power and memory\nPrivacy: Can run locally without sending data to external servers\nLatency: Generally provide faster response times\nCost: Lower operational costs for deployment\nCustomization: Easier to specialize for specific domains or tasks\n\n\n\n\nHere’s a comprehensive comparison of notable small language models:\n\n\n\n\n\n\n\n\n\n\n\n\n\nModel Name\nLicensing\nModel Type\nCompany\nNumber of Releases\nDownload Information\nApplications and Use Cases\nAreas of Excellence\n\n\n\n\nPhi-2\nMIT\nDecoder-only\nMicrosoft\n1 release\nHuggingFace Hub\nCode generation, reasoning tasks, chat\nStrong reasoning, efficient architecture\n\n\nTinyLlama\nApache 2.0\nDecoder-only\nLightning AI\n3 major releases\nHuggingFace Hub, direct download available\nText generation, coding assistance, lightweight chat\nEfficient training, good performance/size ratio\n\n\nMistral-7B\nApache 2.0\nDecoder-only\nMistral AI\n2 releases\nHuggingFace Hub\nGeneral text generation, chat, coding\nStrong performance/size ratio, sliding window attention\n\n\nZephyr-7B\nApache 2.0\nDecoder-only\nHuggingFace\n1 release\nHuggingFace Hub\nChat, instruction following\nStrong instruction following, alignment\n\n\nCodeLlama-7B\nLLAMA 2\nDecoder-only\nMeta AI\n1 release\nHuggingFace Hub\nCode generation, completion, analysis\nCode-specific tasks, multilingual coding\n\n\nStable-LM-3B\nLLAMA 2\nDecoder-only\nStability AI\n2 releases\nHuggingFace Hub\nText generation, chat\nEfficient performance, instruction following\n\n\nBERT-Tiny\nApache 2.0\nEncoder\nGoogle\n2 releases\nTensorFlow Hub, HuggingFace\nText classification, NER, sentiment analysis\nToken classification tasks\n\n\nDistilBERT\nApache 2.0\nEncoder\nHugging Face\n4 releases\nHuggingFace Hub\nText classification, QA, feature extraction\nKnowledge distillation, efficient inference\n\n\nPhi-1.5\nMIT\nDecoder-only\nMicrosoft\n1 release\nHuggingFace Hub\nText generation, coding, reasoning\nCommon sense reasoning, Python coding\n\n\nFLAN-T5-Small\nApache 2.0\nEncoder-Decoder\nGoogle\n3 releases\nHuggingFace Hub\nTranslation, summarization, QA\nInstruction-following\n\n\nOPT-125M\nMIT\nDecoder\nMeta AI\n1 release\nHuggingFace Hub, Meta Model Hub\nResearch, text generation\nModel interpretability\n\n\nALBERT-Base\nApache 2.0\nEncoder\nGoogle\n3 releases\nTensorFlow Hub, HuggingFace\nNLU tasks, classification\nParameter efficiency\n\n\nFalcon-1B\nApache 2.0\nDecoder-only\nTII\n2 releases\nHuggingFace Hub\nText generation, chat\nEfficient architecture, multilingual\n\n\nMPT-7B\nApache 2.0\nDecoder-only\nMosaicML\n3 releases\nHuggingFace Hub\nText generation, chat, reasoning\nALiBi positional embeddings, efficient training\n\n\nGemma-2B\nGemma License\nDecoder-only\nGoogle\n1 release\nGoogle AI Hub, HuggingFace\nGeneral text generation, coding, reasoning\nStrong performance, efficient architecture\n\n\n\n\n\n\n\n\nMicrosoft’s latest small language model represents a breakthrough in efficient architectures: - 2.7B parameters - Trained on synthetic and curated data - Strong mathematical and reasoning capabilities - Excellent code generation abilities - Uses Grouped-Query Attention (GQA) - Optimized context window of 2048 tokens\n\n\n\nA powerful open-source model that introduced several innovations: - 7B parameters - Sliding window attention mechanism - Strong performance across various benchmarks - Efficient inference with grouped-query attention - Well-suited for fine-tuning\n\n\n\nGoogle’s recent entry into small language models: - 2B parameters - Built on advanced model architecture - Strong safety features built-in - Excellent performance on reasoning tasks - Efficient deployment capabilities - Specialized pre-training approach\n\n\n\nTinyLlama represents a significant achievement in model compression: - 1.1B parameters - Trained on 1T tokens - Uses Flash Attention 2 - Compatible with Llama 2 architecture\n\n\n\nA highly compressed version of BERT, designed for edge devices: - 4.4M parameters - Maintains core BERT architecture - Excellent for basic NLP tasks - Very fast inference speed\n\n\n\nThe pioneer in knowledge distillation for transformers: - 66M parameters - Retains 97% of BERT’s performance - 60% faster than BERT - Reduced memory footprint\n[Additional models and their details continue…]\n\n\n\n\nWhen choosing a small language model, consider:\n\nHardware Requirements\n\nMemory constraints\nCPU vs GPU availability\nInference speed requirements\n\nTask Specificity\n\nDomain adaptation needs\nRequired accuracy levels\nInput/output format requirements\n\nDeployment Context\n\nEdge vs cloud deployment\nBatch vs real-time inference\nPrivacy requirements\n\n\n\n\n\nBasic code example for loading and using a small language model:\n\n\n\nThe field of small language models is rapidly evolving, with several promising directions:\n\nArchitecture Innovations\n\nMore efficient attention mechanisms (like Grouped-Query Attention)\nNovel compression techniques\nHybrid architectures\nImproved context window handling\nSpecialized architectures for specific domains\n\nTraining Methodologies\n\nImproved knowledge distillation\nTask-specific optimization\nBetter pre-training objectives\n\nApplication Areas\n\nEdge computing\nIoT devices\nMobile applications\n\n\n\n\n\n\n“TinyLlama: An Open-Source Small Language Model” (2023)\n“DistilBERT, a distilled version of BERT” (Sanh et al., 2019)\n“ALBERT: A Lite BERT for Self-supervised Learning of Language Representations” (Lan et al., 2020)\n\n\n\n\n\nHow do different compression techniques affect model performance?\nWhat are the trade-offs between model size and task-specific performance?\nHow can small language models be effectively fine-tuned for specific domains?\nWhat are the energy consumption implications of using SLMs vs larger models?\n\n\n\n\nThe field of small language models is rapidly evolving, with several promising directions:\n\nArchitecture Innovations\n\nMore efficient attention mechanisms (like Grouped-Query Attention)\nNovel compression techniques\nHybrid architectures\nImproved context window handling\nSpecialized architectures for specific domains\n\nTraining Methodologies\n\nImproved knowledge distillation\nTask-specific optimization\nBetter pre-training objectives\n\nApplication Areas\n\nEdge computing\nIoT devices\nMobile applications\n\n\n\n\n\n\n“TinyLlama: An Open-Source Small Language Model” (2023)\n“DistilBERT, a distilled version of BERT” (Sanh et al., 2019)\n“ALBERT: A Lite BERT for Self-supervised Learning of Language Representations” (Lan et al., 2020)\n\n\n\n\n\nHow do different compression techniques affect model performance?\nWhat are the trade-offs between model size and task-specific performance?\nHow can small language models be effectively fine-tuned for specific domains?\nWhat are the energy consumption implications of using SLMs vs larger models?",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#what-is-a-small-language-model",
+    "href": "core.html#what-is-a-small-language-model",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "Small Language Models (SLMs) are compact neural networks designed for natural language processing tasks that prioritize efficiency and practicality over raw performance. Unlike their larger counterparts (such as GPT-4 or Claude), SLMs are:\n\nTypically under 10 billion parameters\nCapable of running on consumer hardware\nOften optimized for specific use cases\nMore interpretable and controllable\nEasier to fine-tune and modify",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#why-small-language-models-matter",
+    "href": "core.html#why-small-language-models-matter",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "Small language models are becoming increasingly important for several reasons:\n\nResource Efficiency: They require less computational power and memory\nPrivacy: Can run locally without sending data to external servers\nLatency: Generally provide faster response times\nCost: Lower operational costs for deployment\nCustomization: Easier to specialize for specific domains or tasks",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#popular-small-language-models-overview",
+    "href": "core.html#popular-small-language-models-overview",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "Here’s a comprehensive comparison of notable small language models:\n\n\n\n\n\n\n\n\n\n\n\n\n\nModel Name\nLicensing\nModel Type\nCompany\nNumber of Releases\nDownload Information\nApplications and Use Cases\nAreas of Excellence\n\n\n\n\nPhi-2\nMIT\nDecoder-only\nMicrosoft\n1 release\nHuggingFace Hub\nCode generation, reasoning tasks, chat\nStrong reasoning, efficient architecture\n\n\nTinyLlama\nApache 2.0\nDecoder-only\nLightning AI\n3 major releases\nHuggingFace Hub, direct download available\nText generation, coding assistance, lightweight chat\nEfficient training, good performance/size ratio\n\n\nMistral-7B\nApache 2.0\nDecoder-only\nMistral AI\n2 releases\nHuggingFace Hub\nGeneral text generation, chat, coding\nStrong performance/size ratio, sliding window attention\n\n\nZephyr-7B\nApache 2.0\nDecoder-only\nHuggingFace\n1 release\nHuggingFace Hub\nChat, instruction following\nStrong instruction following, alignment\n\n\nCodeLlama-7B\nLLAMA 2\nDecoder-only\nMeta AI\n1 release\nHuggingFace Hub\nCode generation, completion, analysis\nCode-specific tasks, multilingual coding\n\n\nStable-LM-3B\nLLAMA 2\nDecoder-only\nStability AI\n2 releases\nHuggingFace Hub\nText generation, chat\nEfficient performance, instruction following\n\n\nBERT-Tiny\nApache 2.0\nEncoder\nGoogle\n2 releases\nTensorFlow Hub, HuggingFace\nText classification, NER, sentiment analysis\nToken classification tasks\n\n\nDistilBERT\nApache 2.0\nEncoder\nHugging Face\n4 releases\nHuggingFace Hub\nText classification, QA, feature extraction\nKnowledge distillation, efficient inference\n\n\nPhi-1.5\nMIT\nDecoder-only\nMicrosoft\n1 release\nHuggingFace Hub\nText generation, coding, reasoning\nCommon sense reasoning, Python coding\n\n\nFLAN-T5-Small\nApache 2.0\nEncoder-Decoder\nGoogle\n3 releases\nHuggingFace Hub\nTranslation, summarization, QA\nInstruction-following\n\n\nOPT-125M\nMIT\nDecoder\nMeta AI\n1 release\nHuggingFace Hub, Meta Model Hub\nResearch, text generation\nModel interpretability\n\n\nALBERT-Base\nApache 2.0\nEncoder\nGoogle\n3 releases\nTensorFlow Hub, HuggingFace\nNLU tasks, classification\nParameter efficiency\n\n\nFalcon-1B\nApache 2.0\nDecoder-only\nTII\n2 releases\nHuggingFace Hub\nText generation, chat\nEfficient architecture, multilingual\n\n\nMPT-7B\nApache 2.0\nDecoder-only\nMosaicML\n3 releases\nHuggingFace Hub\nText generation, chat, reasoning\nALiBi positional embeddings, efficient training\n\n\nGemma-2B\nGemma License\nDecoder-only\nGoogle\n1 release\nGoogle AI Hub, HuggingFace\nGeneral text generation, coding, reasoning\nStrong performance, efficient architecture",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#detailed-analysis-of-each-model",
+    "href": "core.html#detailed-analysis-of-each-model",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "Microsoft’s latest small language model represents a breakthrough in efficient architectures: - 2.7B parameters - Trained on synthetic and curated data - Strong mathematical and reasoning capabilities - Excellent code generation abilities - Uses Grouped-Query Attention (GQA) - Optimized context window of 2048 tokens\n\n\n\nA powerful open-source model that introduced several innovations: - 7B parameters - Sliding window attention mechanism - Strong performance across various benchmarks - Efficient inference with grouped-query attention - Well-suited for fine-tuning\n\n\n\nGoogle’s recent entry into small language models: - 2B parameters - Built on advanced model architecture - Strong safety features built-in - Excellent performance on reasoning tasks - Efficient deployment capabilities - Specialized pre-training approach\n\n\n\nTinyLlama represents a significant achievement in model compression: - 1.1B parameters - Trained on 1T tokens - Uses Flash Attention 2 - Compatible with Llama 2 architecture\n\n\n\nA highly compressed version of BERT, designed for edge devices: - 4.4M parameters - Maintains core BERT architecture - Excellent for basic NLP tasks - Very fast inference speed\n\n\n\nThe pioneer in knowledge distillation for transformers: - 66M parameters - Retains 97% of BERT’s performance - 60% faster than BERT - Reduced memory footprint\n[Additional models and their details continue…]",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#implementation-considerations",
+    "href": "core.html#implementation-considerations",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "When choosing a small language model, consider:\n\nHardware Requirements\n\nMemory constraints\nCPU vs GPU availability\nInference speed requirements\n\nTask Specificity\n\nDomain adaptation needs\nRequired accuracy levels\nInput/output format requirements\n\nDeployment Context\n\nEdge vs cloud deployment\nBatch vs real-time inference\nPrivacy requirements",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#getting-started-with-small-language-models",
+    "href": "core.html#getting-started-with-small-language-models",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "Basic code example for loading and using a small language model:",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#future-directions",
+    "href": "core.html#future-directions",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "The field of small language models is rapidly evolving, with several promising directions:\n\nArchitecture Innovations\n\nMore efficient attention mechanisms (like Grouped-Query Attention)\nNovel compression techniques\nHybrid architectures\nImproved context window handling\nSpecialized architectures for specific domains\n\nTraining Methodologies\n\nImproved knowledge distillation\nTask-specific optimization\nBetter pre-training objectives\n\nApplication Areas\n\nEdge computing\nIoT devices\nMobile applications",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#references",
+    "href": "core.html#references",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "“TinyLlama: An Open-Source Small Language Model” (2023)\n“DistilBERT, a distilled version of BERT” (Sanh et al., 2019)\n“ALBERT: A Lite BERT for Self-supervised Learning of Language Representations” (Lan et al., 2020)",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#questions-for-further-exploration",
+    "href": "core.html#questions-for-further-exploration",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "How do different compression techniques affect model performance?\nWhat are the trade-offs between model size and task-specific performance?\nHow can small language models be effectively fine-tuned for specific domains?\nWhat are the energy consumption implications of using SLMs vs larger models?",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#future-directions-1",
+    "href": "core.html#future-directions-1",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "The field of small language models is rapidly evolving, with several promising directions:\n\nArchitecture Innovations\n\nMore efficient attention mechanisms (like Grouped-Query Attention)\nNovel compression techniques\nHybrid architectures\nImproved context window handling\nSpecialized architectures for specific domains\n\nTraining Methodologies\n\nImproved knowledge distillation\nTask-specific optimization\nBetter pre-training objectives\n\nApplication Areas\n\nEdge computing\nIoT devices\nMobile applications",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#references-1",
+    "href": "core.html#references-1",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "“TinyLlama: An Open-Source Small Language Model” (2023)\n“DistilBERT, a distilled version of BERT” (Sanh et al., 2019)\n“ALBERT: A Lite BERT for Self-supervised Learning of Language Representations” (Lan et al., 2020)",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  },
+  {
+    "objectID": "core.html#questions-for-further-exploration-1",
+    "href": "core.html#questions-for-further-exploration-1",
+    "title": "Small Language Models: An Overview",
+    "section": "",
+    "text": "How do different compression techniques affect model performance?\nWhat are the trade-offs between model size and task-specific performance?\nHow can small language models be effectively fine-tuned for specific domains?\nWhat are the energy consumption implications of using SLMs vs larger models?",
+    "crumbs": [
+      "Small Language Models: An Overview"
+    ]
+  }
+]
